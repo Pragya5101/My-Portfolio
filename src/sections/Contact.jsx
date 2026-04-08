@@ -108,6 +108,8 @@ export default function Contact() {
                   type="text" 
                   name="user_name"
                   required 
+                  pattern="[A-Za-z\s]+"
+                  title="Name should only contain letters and spaces (no numbers or special characters)"
                   className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 transition-colors text-slate-900 dark:text-slate-100 placeholder:text-slate-400"
                   placeholder="Name"
                 />
@@ -118,6 +120,8 @@ export default function Contact() {
                   type="email" 
                   name="user_email"
                   required 
+                  pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"
+                  title="Please enter a valid email address (e.g., name@example.com)"
                   className="w-full px-4 py-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 transition-colors text-slate-900 dark:text-slate-100 placeholder:text-slate-400"
                   placeholder="Email address"
                 />

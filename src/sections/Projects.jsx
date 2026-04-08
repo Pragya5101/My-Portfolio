@@ -37,8 +37,8 @@ const projectsData = [
     description: 'Architected a high-performance, production-grade portfolio with a scalable, component-driven structure, delivering fast load times and optimized rendering. Crafted a premium user experience through sophisticated animations and seamless dark mode support, ensuring fluid, responsive interactions across all devices.',
     tech: ['Vite', 'React', 'Framer Motion','Tailwind CSS'],
     category: 'Frontend',
-    demoUrl: '#',
-    githubUrl: '#',
+    demoUrl: 'https://my-portfolio-ten-henna-ctrtbp1qsq.vercel.app/',
+    githubUrl: 'https://github.com/Pragya5101/My-Portfolio',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=800',
     featured: false
   },
