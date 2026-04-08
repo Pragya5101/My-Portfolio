@@ -2,6 +2,8 @@ import { useState } from 'react';
 import Section from '../components/Section';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink } from 'lucide-react';
+import powerBiImg from '../assets/dashboard-power-bi.png';
+import cardiacImg from '../assets/cardiac thromus.jpg';
 
 const GithubIcon = () => (
   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -28,7 +30,7 @@ const projectsData = [
     tech: ['PowerBI','Power Query','MySQL'],
     category: 'Data Analytics',
     githubUrl: 'https://github.com/Pragya5101/sales-insight-analysis-dashboard',
-    image: 'src/assets/dashboard-power-bi.png',
+    image: powerBiImg,
     featured: false
   },
   {
@@ -50,7 +52,7 @@ const projectsData = [
     category: 'ML',
     demoUrl: '#',
     githubUrl: '#',
-    image: 'src/assets/cardiac thromus.jpg',
+    image: cardiacImg,
     featured: false
     
   }

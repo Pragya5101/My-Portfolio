@@ -27,6 +27,8 @@ const LinkedinIcon = () => (
   </a>
 );
 
+import resumePdf from '../assets/pragya_kumari_resume.pdf';
+
 export default function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative pt-20 overflow-hidden">
@@ -74,7 +76,7 @@ I build scalable, high-impact systems at the intersection of web, data, and mach
             <ArrowRight size={18} />
           </a>
           <a
-            href="/resume.pdf"
+            href={resumePdf}
             download="Pragya_Kumari_Resume.pdf"
             className="flex items-center gap-2 bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 hover:bg-slate-50 dark:hover:bg-slate-700 px-8 py-3 rounded-full font-medium shadow-sm transition-colors border border-slate-200 dark:border-slate-700 w-full sm:w-auto justify-center"
           >

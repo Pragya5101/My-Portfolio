@@ -1,6 +1,8 @@
 import Section from '../components/Section';
 import { motion } from 'framer-motion';
 
+import profileImg from '../assets/WhatsApp Image 2026-04-07 at 11.13.50 PM.jpeg';
+
 export default function About() {
   return (
     <Section id="about">
@@ -14,7 +16,7 @@ export default function About() {
         >
           <div className="aspect-square relative rounded-3xl overflow-hidden glass shadow-soft mx-auto max-w-[300px]">
             <img 
-              src="src\assets\WhatsApp Image 2026-04-07 at 11.13.50 PM.jpeg" 
+              src={profileImg} 
               alt="Profile" 
               loading="lazy"
               className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
