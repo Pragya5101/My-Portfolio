@@ -4,9 +4,9 @@ import { Code2, Server, Brain, Wrench, ShieldCheck } from 'lucide-react';
 
 const skillCategories = [
   {
-    title: 'Frontend',
+    title: 'Develpoment',
     icon: Code2,
-    skills: ['HTML', 'CSS', 'JavaScript', 'React (Vite)', 'Tailwind CSS', 'Framer Motion']
+    skills: ['HTML', 'JavaScript', 'React (Vite)', 'Tailwind CSS', 'Node.js','MySQL', 'JWT']
   },
   {
     title: 'Data & ML',
