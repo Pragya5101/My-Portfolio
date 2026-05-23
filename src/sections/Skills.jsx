@@ -26,7 +26,8 @@ const skillCategories = [
     title: 'Tools',
     icon: Wrench,
     skills: ['Git', 'Vercel','Power BI', 'Excel','Cursor']
-  }
+  },
+  
 ];
 
 const containerVariants = {

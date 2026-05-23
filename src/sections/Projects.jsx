@@ -55,8 +55,18 @@ const projectsData = [
     image: cardiacImg,
     featured: false
     
+  },
+  {
+  id: 5,
+    title: 'Team task manager',
+    description: 'Engineered an end-to-end AI-driven solution for precise detection and localization of intracardiac thrombus from LGE-MRI, leveraging advanced 3D deep learning architectures.',
+    tech: ['React', 'Vite', 'JavaScript', 'Context API','Node.js', 'Express.js', 'REST API','SQLite', 'PostgreSQL','JWT'],
+    category: 'Full Stack',
+    demoUrl: 'https://task-management-production-7845.up.railway.app/',
+    githubUrl: 'https://github.com/Pragya5101/team-task-manager',
+    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800',
+    featured: false
   }
-
 ];
 
 export default function Projects() {
