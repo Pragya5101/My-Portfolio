@@ -88,7 +88,7 @@ export default function Projects() {
       </div>
 
       <div className="flex justify-center gap-4 mb-12">
-        {['All', 'Frontend', 'ML', 'Data Analytics'].map(category => (
+        {['All', 'Frontend', 'ML', 'Data Analytics', 'Full Stack'].map(category => (
           <button
             key={category}
             onClick={() => setFilter(category)}
