@@ -59,7 +59,7 @@ const projectsData = [
   {
   id: 5,
     title: 'Team task manager',
-    description: 'Engineered an end-to-end AI-driven solution for precise detection and localization of intracardiac thrombus from LGE-MRI, leveraging advanced 3D deep learning architectures.',
+    description: 'Engineered a scalable full-stack Team Task Manager with secure JWT-based authentication, admin/member role controls, project collaboration, and Kanban-based task tracking. Designed a flexible database architecture supporting both SQLite and PostgreSQL, ensuring smooth transition from local development to production deployments.',
     tech: ['React', 'Vite', 'JavaScript', 'Context API','Node.js', 'Express.js', 'REST API','SQLite', 'PostgreSQL','JWT'],
     category: 'Full Stack',
     demoUrl: 'https://task-management-production-7845.up.railway.app/',
